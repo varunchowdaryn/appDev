@@ -2,6 +2,7 @@ git init
 git add . ( adds all files to staging)
 git status
 git commit -m "<type message>"
+git rm --cached <file> 
 git log ( press q to exit for short terminals)
 
 
