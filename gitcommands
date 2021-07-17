@@ -1,5 +1,6 @@
 git init
 git add . ( adds all files to staging)
+git add <filename> (adding specific file to staging)
 git status
 git commit -m "<type message>"
 git rm --cached <file> 
