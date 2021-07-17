@@ -5,6 +5,7 @@ git status
 git commit -m "<type message>"
 git rm --cached <file> 
 git log ( press q to exit for short terminals)
-
-
-
+git checkout -b <filename> (creates new branch from master with the filename)
+git checkout master (switches to master)
+git branch (Shows all the branches)
+git merge <branchname> (merges master with branch name)
