@@ -11,3 +11,4 @@ git branch (Shows all the branches)
 git merge <branchname> (merges master with branch name)
 
 This is gitcommands in branch1 file.
+This is master git commands
