@@ -1,0 +1,115 @@
+<html>
+<style>
+    .textalign {
+        text-align: center;
+    }
+    
+    .flex {
+        display: flex;
+        justify-content: space-between;
+        margin: 50px;
+    }
+    
+    .flex-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 700px;
+    }
+    
+    .box-lg {
+        width: 600px;
+        margin: 50px;
+        border: 1px solid grey;
+    }
+    
+    .box-sm {
+        width: 100%;
+        height: 350px;
+        background: grey;
+    }
+    
+    .button {
+        background: blue;
+        color: white;
+        margin-left: 10px;
+        padding-left: 10px;
+        width: 50px;
+    }
+    
+    .box-sl {
+        width: 40px;
+        height: 40px;
+        background: grey;
+        margin-right: 20px;
+    }
+    
+    .footer {
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+</style>
+
+<body>
+    <div class="container">
+
+        <h2 class="textalign"> From our blog </h2>
+        <p class="textalign">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fugit ratione dicta mollitia. Officiis ad. </p>
+
+        <div class="flex">
+            <div class="box-lg flex-column">
+                <div class="box-sm"></div>
+                <div>
+                    <p class="button">News</p>
+                    <h2>Blog post title </h2>
+                    <p>Some quick example text to build on the card title and make up the bulk of the card's content </p>
+                </div>
+                <div class="flex">
+                    <div class="box-sl"></div>
+                    <div>
+                        <h4>Kelly Rowan</h4>
+                        <p>March 12,2021 </p>
+                    </div>
+                </div>
+            </div>
+            <div class="box-lg flex-column">
+                <div class="box-sm"></div>
+                <div>
+                    <p class="button">Media</p>
+                    <h2>Another Blog post title </h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fugit ratione dicta mollitia. Officiis ad. </p>
+                </div>
+                <div class="flex">
+                    <div class="box-sl"></div>
+                    <div>
+                        <h4>Josiah Barclay </h4>
+                        <p>March 23,2021 </p>
+                    </div>
+                </div>
+            </div>
+            <div class="box-lg flex-column">
+                <div>
+                    <div class="box-sm"></div>
+                    <div>
+                        <p class="button">News</p>
+                        <h2>The last blog post title is a little bit longer than the others </h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fugit ratione dicta mollitia. Officiis ad. </p>
+                    </div>
+                </div>
+                <div class="flex">
+                    <div class="box-sl"></div>
+                    <div>
+                        <h4>Evelyn Martinez </h4>
+                        <p>April 2,2021 </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
