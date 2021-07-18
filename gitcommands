@@ -14,3 +14,4 @@ git remote add origin <githubpath>
 
 git remote show origin
 git push origin <branchname> 
+git remote add origin https://github.com/varunchowdaryn/appDev.git
