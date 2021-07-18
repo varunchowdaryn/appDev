@@ -12,4 +12,5 @@ git merge <branchname> (merges master with branch name)
 
 git remote add origin <githubpath>
 
-git remote show origin 
+git remote show origin
+git push origin <branchname> 
